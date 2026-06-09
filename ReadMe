@@ -1,0 +1,76 @@
+# Deep Learning Image Classification using CNN
+
+## 📌 Overview
+
+This project implements a Convolutional Neural Network (CNN) using TensorFlow to classify images from the Fashion MNIST dataset. The model is trained to recognize 10 different categories of clothing items.
+
+## 🎯 Objective
+
+To build and train a deep learning model for image classification and visualize its performance using accuracy graphs and predictions.
+
+## 🛠 Technologies Used
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+
+## 📂 Dataset
+
+Fashion MNIST Dataset:
+- 60,000 training images
+- 10,000 testing images
+- 10 clothing categories
+- Image size: 28×28 pixels
+
+## 🧠 Model Architecture
+
+- Conv2D Layer
+- MaxPooling Layer
+- Conv2D Layer
+- Flatten Layer
+- Dense Layer
+- Output Layer (Softmax)
+
+## 🚀 How to Run
+
+1. Install dependencies:
+
+```bash
+pip install tensorflow matplotlib numpy
+```
+
+2. Run the project:
+
+```bash
+python main.py
+```
+
+## 📊 Results
+
+- Achieved approximately **90% test accuracy**
+- Generated training and validation accuracy graphs
+- Displayed sample predictions on test images
+
+## 📁 Project Structure
+
+```text
+DeepLearning_Project/
+│
+├── main.py
+├── README.md
+└── screenshots/
+```
+
+## 🎓 Learning Outcomes
+
+- Understanding CNNs
+- Image classification using TensorFlow
+- Model training and evaluation
+- Data visualization
+
+## 👨‍💻 Author
+
+Your Name
+
+Internship Deep Learning Project
